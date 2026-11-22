@@ -1,0 +1,6 @@
+{
+  "name": "CardVault",
+  "description": "Private local card wallet with overlapping card stack, dynamic payment network and variant filters, single-card expansion, and one-tap clipboard copy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

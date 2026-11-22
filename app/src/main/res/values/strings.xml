@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">CardVault</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">CardVault</string>
+    <string name="home_subtitle_count_single">%1$d card saved locally</string>
+    <string name="home_subtitle_count_plural">%1$d cards saved locally</string>
+    <string name="home_subtitle_filtered">Showing %1$d of %2$d cards</string>
+    <string name="home_filter_all">All</string>
+    <string name="home_filter_networks_label">Networks</string>
+    <string name="home_filter_variants_label">Variants</string>
+    <string name="home_clear_filters">Clear filters</string>
+    <string name="home_empty_wallet_title">Your vault is ready</string>
+    <string name="home_empty_wallet_subtitle">Store your credit and debit cards privately on this device. Tap any card to reveal and copy details in one tap.</string>
+    <string name="home_empty_wallet_cta">Add Your First Card</string>
+    <string name="home_empty_filter_title">No matching cards</string>
+    <string name="home_empty_filter_subtitle">No saved cards match your current network or variant filters.</string>
+    <string name="home_tap_to_expand_hint">Tap to reveal</string>
+    <string name="home_tap_to_collapse_hint">Tap to hide</string>
+
+    <!-- Card Details & Clipboard -->
+    <string name="card_label_number">CARD NUMBER</string>
+    <string name="card_label_expiry">VALID THRU</string>
+    <string name="card_label_cvv">CVV</string>
+    <string name="card_type_credit">CREDIT</string>
+    <string name="card_type_debit">DEBIT</string>
+    <string name="card_copied_badge">Copied</string>
+    <string name="cd_copy_card_number">Copy card number</string>
+    <string name="cd_copy_expiry">Copy expiry date</string>
+    <string name="cd_copy_cvv">Copy CVV</string>
+    <string name="cd_delete_card">Delete card</string>
+    <string name="cd_expand_card">Expand card details</string>
+    <string name="cd_collapse_card">Collapse card details</string>
+    <string name="cd_empty_wallet_illustration">Minimalist metallic cardholder illustration</string>
+    <string name="delete_dialog_title">Remove card?</string>
+    <string name="delete_dialog_message">Remove %1$s from your local vault? This cannot be undone.</string>
+    <string name="delete_dialog_confirm">Remove</string>
+    <string name="delete_dialog_cancel">Cancel</string>
+
+    <!-- Settings / Add Card Screen -->
+    <string name="settings_title">Add Card</string>
+    <string name="settings_subtitle">Stored privately on-device • New variants sync to Home filters</string>
+    <string name="settings_section_card_details">Card Details</string>
+    <string name="settings_section_classification">Network &amp; Variant</string>
+    <string name="settings_field_card_name">Card Name / Nickname</string>
+    <string name="settings_field_card_name_placeholder">e.g. HDFC Regalia, ICICI Coral</string>
+    <string name="settings_field_card_number">Card Number</string>
+    <string name="settings_field_card_number_placeholder">1234 5678 9012 3456</string>
+    <string name="settings_field_expiry">Expiry (MM/YYYY)</string>
+    <string name="settings_field_expiry_placeholder">08/2029</string>
+    <string name="settings_field_cvv">CVV</string>
+    <string name="settings_field_cvv_placeholder_3">3 digits</string>
+    <string name="settings_field_cvv_placeholder_4">4 digits</string>
+    <string name="settings_field_card_type">Card Type</string>
+    <string name="settings_field_network">Payment Network</string>
+    <string name="settings_field_variant">Card Variant</string>
+    <string name="settings_field_variant_placeholder">Type or pick (e.g. Signature, Coral, Infinia)</string>
+    <string name="settings_variant_suggestions_label">Quick pick or type a new variant</string>
+    <string name="settings_variant_new_badge">New filter variant</string>
+    <string name="settings_button_add_card">Add Card to Vault</string>
+    <string name="settings_button_reset">Reset</string>
+    <string name="settings_snackbar_added">%1$s added to wallet</string>
+    <string name="settings_snackbar_view">View</string>
+    <string name="settings_vault_overview_title">Vault Overview</string>
+    <string name="settings_vault_cards_stat">Saved Cards</string>
+    <string name="settings_vault_variants_stat">Filter Variants</string>
+    <string name="settings_vault_custom_variants_stat">Custom Variants</string>
+
+    <!-- Validation Errors -->
+    <string name="error_card_name_required">Enter a nickname for this card</string>
+    <string name="error_card_number_length">Enter a valid %1$d-digit card number</string>
+    <string name="error_expiry_format">Use valid MM/YYYY format</string>
+    <string name="error_expiry_month">Month must be between 01 and 12</string>
+    <string name="error_expiry_year">Enter a valid 4-digit year (2024–2099)</string>
+    <string name="error_cvv_length">CVV must be %1$d digits for %2$s</string>
+    <string name="error_variant_required">Enter or select a card variant</string>
+
+    <!-- Network Display Names -->
+    <string name="network_visa">Visa</string>
+    <string name="network_mastercard">Mastercard</string>
+    <string name="network_rupay">RuPay</string>
+    <string name="network_amex">American Express</string>
+    <string name="network_discover">Discover</string>
+
+    <!-- Biometric Authentication -->
+    <string name="biometric_prompt_title">Unlock Card Details</string>
+    <string name="biometric_prompt_subtitle">Verify fingerprint or face to view %1$s</string>
+    <string name="biometric_prompt_negative">Cancel</string>
+    <string name="biometric_error_not_enrolled">Enroll fingerprint or face unlock in device settings to reveal card details.</string>
+    <string name="biometric_action_enroll">Set up</string>
+    <string name="biometric_error_unavailable">Biometric authentication is unavailable on this device.</string>
+    <string name="biometric_error_generic">Authentication failed: %1$s</string>
+    <string name="cd_biometric_protected">Biometric authentication required to reveal card details</string>
+</resources>
